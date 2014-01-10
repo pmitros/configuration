@@ -1,0 +1,5 @@
+emacs python-boto git ipython python-scipy python-numpy python-pandas python-matplotlib mosh python-pip git-core 
+
+optional: 
+python-pika mdadm xfsprogs
+
