@@ -1,4 +1,4 @@
-emacs python-boto git ipython python-scipy python-numpy python-pandas python-matplotlib mosh python-pip git-core 
+emacs python-boto git ipython python-scipy python-numpy python-pandas python-matplotlib mosh python-pip git-core links lynx
 
 optional: 
 python-pika mdadm xfsprogs
