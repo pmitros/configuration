@@ -1,0 +1,4 @@
+- apt: name=xmonad
+- apt: name=xmobar
+- apt: name=kdm
+- apt: name=meld

@@ -1,0 +1,5 @@
+- apt: name=leiningen
+- pip: name=git+https://github.com/pmitros/x-analytics-scripts.git#egg=xanalytics
+- copy: src=/home/pmitros/.xanalytics dest=/home/ubuntu/.xanalytics owner=ubuntu group=ubuntu mode=0644
+- copy: src=/mnt/2tb/logs/cluster dest=/tmp/cluster owner=ubuntu group=ubuntu mode=0644
+

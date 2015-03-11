@@ -1,0 +1,27 @@
+- apt: upgrade=dist update_cache=yes
+- apt: name=emacs
+- apt: name=python-scipy
+- apt: name=python-matplotlib
+- apt: name=python-sklearn
+- apt: name=git-core
+- apt: name=python-boto
+- apt: name=python-setuptools
+- apt: name=python-pip
+- apt: name=ipython
+- apt: name=python-bson
+- apt: name=emacs
+- apt: name=python-boto
+- apt: name=git
+- apt: name=ipython
+- apt: name=python-scipy
+- apt: name=python-numpy
+- apt: name=python-pandas
+- apt: name=python-matplotlib
+- apt: name=mosh
+- apt: name=python-pip
+- apt: name=git-core
+- apt: name=links
+- apt: name=lynx
+- apt: name=mercurial
+
+- pip: name=fs

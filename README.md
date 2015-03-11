@@ -1,3 +1,14 @@
+* Install Ubuntu
+* Add: 
+
+   [localhost]
+   127.0.0.1
+
+to /etc/ansible/hosts. This should not be necessary, but it is. 
+
+Run ansible-playbook local.yaml
+
+
 Google Chrome extensions
 
 * https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb (Block ads)
