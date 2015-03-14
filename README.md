@@ -8,6 +8,8 @@ to /etc/ansible/hosts. This should not be necessary, but it is.
 
 Run ansible-playbook local.yaml
 
+Manually: 
+* noatime in fstab on SSD-mounted drives
 
 Google Chrome extensions
 
