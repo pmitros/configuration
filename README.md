@@ -1,8 +1,14 @@
 * Install Ubuntu
-* Add: 
+* Run:
 
-   [localhost]
-   127.0.0.1
+    sudo apt-get update
+    sudo apt-get install git ansible
+    git clone https://github.com/pmitros/configuration.git
+
+* Add (with pico): 
+
+    [localhost]
+    127.0.0.1
 
 to /etc/ansible/hosts. This should not be necessary, but it is. 
 
