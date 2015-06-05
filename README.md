@@ -14,6 +14,19 @@ to /etc/ansible/hosts. This should not be necessary, but it is.
 
 Run ansible-playbook local.yaml
 
+Enable ufw firewall. The configuration is in etc/gufw/.... The command is 
+
+    ufw enable
+    ufw status verbose
+
+Configure a mysql password:
+
+    dpkg-reconfigure mysql-server-5.5
+    emacs ~/.my.cnf
+      [client]
+      user=[mysqluser]
+      password=[mysqlpass]
+
 
 Google Chrome extensions
 

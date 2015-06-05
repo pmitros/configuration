@@ -1,0 +1,4 @@
+- apt: name=openssh-server
+- apt: name=nginx
+- apt: name=mysql-server
+
