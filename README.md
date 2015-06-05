@@ -27,6 +27,9 @@ Configure a mysql password:
       user=[mysqluser]
       password=[mysqlpass]
 
+Manually: 
+* noatime in fstab on SSD-mounted drives
+* Copy professional fonts to /usr/share/fonts
 
 Google Chrome extensions
 

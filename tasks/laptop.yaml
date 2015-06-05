@@ -1,0 +1,6 @@
+- apt: name=powertop
+- apt: name=cpufrequtils
+- apt: name=unity-2d-panel
+- apt: name=lm-sensors
+- include: google-drive-ocaml.yaml
+# --- apt: name=pm-utils

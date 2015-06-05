@@ -5,3 +5,4 @@
   - include: tasks/baseline.yaml
   - include: tasks/desktop.yaml
   - include: tasks/server.yaml
+  - include: tasks/laptop.yaml
