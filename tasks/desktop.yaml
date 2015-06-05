@@ -3,9 +3,16 @@
 - apt: name=kdm
 - apt: name=meld
 - apt: name=texlive-base
+- apt: name=texlive-publishers
 - apt: name=texlive-latex-extra
 - apt: name=texlive-latex-recommended
 - apt: name=mplayer
 - apt: name=shutter
 - apt: name=texlive-fonts-recommended
+- apt: name=texlive-fonts-extra
+- apt: name=texlive-xetex
 - apt: name=inkscape
+- apt: name=gimp
+- apt: name=npm
+- apt: name=epic4
+- include: google-drive-ocaml.yaml

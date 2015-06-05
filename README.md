@@ -10,6 +10,7 @@ Run ansible-playbook local.yaml
 
 Manually: 
 * noatime in fstab on SSD-mounted drives
+* Copy professional fonts to /usr/share/fonts
 
 Google Chrome extensions
 

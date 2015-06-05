@@ -23,5 +23,7 @@
 - apt: name=links
 - apt: name=lynx
 - apt: name=mercurial
-
+- apt: name=nmap
+- apt: name=curl
 - pip: name=fs
+- pip: name=node
