@@ -1,6 +1,6 @@
 - apt: name=xmonad
 - apt: name=xmobar
-- apt: name=kdm
+#- apt: name=kdm
 - apt: name=meld
 - apt: name=nmap
 - apt: name=ufw
