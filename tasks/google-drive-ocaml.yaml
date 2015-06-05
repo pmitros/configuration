@@ -1,0 +1,2 @@
+- apt_repository: repo='ppa:alessandro-strada/ppa' state=present
+- apt: name=google-drive-ocamlfuse
