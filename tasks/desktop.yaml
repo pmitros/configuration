@@ -18,6 +18,9 @@
 - apt: name=gimp
 - apt: name=npm
 - apt: name=epic4
+- apt: name=python-mysqldb
+- apt: name=python-pymysql
+
 # - include: google-drive-ocaml.yaml
 - command: git config --global user.email "piotr@mitros.org"
 - command: git config --global user.name "Piotr Mitros"
