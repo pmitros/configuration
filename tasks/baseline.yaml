@@ -25,6 +25,8 @@
 - apt: name=mercurial
 - apt: name=nmap
 - apt: name=curl
+- apt: name=virtualenvwrapper
+- apt: name=virtualenv
 - pip: name=fs
 - pip: name=node
 - apt: name=nfs-common
