@@ -29,3 +29,5 @@
 - apt: name=virtualenv
 - pip: name=fs
 - pip: name=node
+- apt: name=nfs-common
+- apt: name=nfs-kernel-server
