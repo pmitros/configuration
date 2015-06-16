@@ -1,4 +1,7 @@
-- apt: name=openssh-server
-- apt: name=nginx
-- apt: name=mysql-server
+- name: Basic utils
+  apt: name={{ item }} 
+  with_items:
+  - mysql-server
+  - nginx
+  - openssh-server
 

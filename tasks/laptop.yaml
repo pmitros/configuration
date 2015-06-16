@@ -1,6 +1,9 @@
-- apt: name=powertop
-- apt: name=cpufrequtils
-- apt: name=unity-2d-panel
-- apt: name=lm-sensors
-- include: google-drive-ocaml.yaml
+- name: Laptop power and sensors
+  apt: name={{ item }} 
+  with_items:
+  - powertop
+  - cpufrequtils
+  - unity-2d-panel
+  - lm-sensors
+# - include: google-drive-ocaml.yaml
 # --- apt: name=pm-utils

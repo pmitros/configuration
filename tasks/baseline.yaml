@@ -1,34 +1,49 @@
 - apt: upgrade=dist update_cache=yes
-- apt: name=emacs
-- apt: name=python-scipy
-- apt: name=python-matplotlib
-- apt: name=python-sklearn
-- apt: name=git-core
-- apt: name=python-boto
-- apt: name=python-setuptools
-- apt: name=python-pip
-- apt: name=ipython
-- apt: name=python-bson
-- apt: name=emacs
-- apt: name=python-boto
-- apt: name=git
-- apt: name=ipython
-- apt: name=python-scipy
-- apt: name=python-numpy
-- apt: name=python-pandas
-- apt: name=python-matplotlib
-- apt: name=mosh
-- apt: name=python-pip
-- apt: name=git-core
-- apt: name=links
-- apt: name=lynx
-- apt: name=mercurial
-- apt: name=nmap
-- apt: name=curl
-- apt: name=virtualenvwrapper
+
+- name: Basic utils
+  apt: name={{ item }} 
+  with_items:
+  - emacs
+  - git-core
+  - git
+  - mosh
+  - git-core
+  - links
+  - lynx
+  - mercurial
+  - nmap
+  - curl
+  - whois
+
+- name: Python
+  apt: name={{ item }} 
+  with_items:
+  - ipython
+  - ipython
+  - python-boto
+  - python-boto
+  - python-bson
+  - python-matplotlib
+  - python-matplotlib
+  - python-numpy
+  - python-pandas
+  - python-pip
+  - python-pip
+  - python-scipy
+  - python-scipy
+  - python-setuptools
+  - python-sklearn
+  - virtualenvwrapper
+
+- apt: name=python-virtualenv
+  when: ansible_distribution_version == '14.04'
 - apt: name=virtualenv
+  when: ansible_distribution_version == '15.04'
+- apt: name=python-mysqldb
+- apt: name=python-pymysql
+  when: ansible_distribution_version == '15.04'
+- apt: name=python-mysql.connector
+  when: ansible_distribution_version == '14.04'
+
 - pip: name=fs
 - pip: name=node
-- apt: name=nfs-common
-- apt: name=nfs-kernel-server
-- apt: name=whois
