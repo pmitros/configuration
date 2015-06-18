@@ -3,26 +3,31 @@
 - name: Basic utils
   apt: name={{ item }} 
   with_items:
+  - curl
   - emacs
-  - git-core
   - git
-  - mosh
+  - git-core
   - git-core
   - links
   - lynx
   - mercurial
+  - mosh
   - nmap
-  - curl
+  - npm
   - whois
 
 - name: Python
   apt: name={{ item }} 
   with_items:
+  - cython
   - ipython
   - ipython
+  - libxml2-dev
+  - libxslt1-dev
   - python-boto
   - python-boto
   - python-bson
+  - python-dev
   - python-matplotlib
   - python-matplotlib
   - python-numpy
@@ -35,6 +40,9 @@
   - python-sklearn
   - virtualenvwrapper
 
+- pip: name=fs
+- pip: name=node
+
 - apt: name=python-virtualenv
   when: ansible_distribution_version == '14.04'
 - apt: name=virtualenv
@@ -44,6 +52,3 @@
   when: ansible_distribution_version == '15.04'
 - apt: name=python-mysql.connector
   when: ansible_distribution_version == '14.04'
-
-- pip: name=fs
-- pip: name=node

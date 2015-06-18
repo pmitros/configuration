@@ -1,36 +1,34 @@
 - name: Desktop applications
   apt: name={{ item }} 
   with_items:
-  - xmonad
-  - xmobar
+  - gimp
+  - gthumb
+  - inkscape
   - meld
   - mplayer
   - shutter
-  - inkscape
-  - gimp
-  - gthumb
+  - xmobar
+  - xmonad
 
 - name: Desktop network utils
   apt: name={{ item }} 
   with_items:
-  - nmap
-  - ufw
+  - epic4
   - gufw
+  - nmap
   - openconnect
+  - ufw
 
 - name: LaTeX
   apt: name={{ item }} 
   with_items:
   - texlive-base
-  - texlive-publishers
+  - texlive-fonts-extra
+  - texlive-fonts-recommended
   - texlive-latex-extra
   - texlive-latex-recommended
-  - texlive-fonts-recommended
-  - texlive-fonts-extra
+  - texlive-publishers
   - texlive-xetex
-
-- apt: name=npm
-- apt: name=epic4
 
 - name: edX requirements
   apt: name={{ item }} 
