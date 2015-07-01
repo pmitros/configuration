@@ -9,6 +9,7 @@
   - shutter
   - xmobar
   - xmonad
+  - kdenlive
 
 - name: Desktop network utils
   apt: name={{ item }} 
