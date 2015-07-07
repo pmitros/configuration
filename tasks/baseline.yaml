@@ -15,6 +15,7 @@
   - nmap
   - npm
   - whois
+  - screen
 
 - name: Python
   apt: name={{ item }} 
