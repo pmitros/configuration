@@ -1,3 +1,4 @@
+#!/bin/bash
 ## If we've already done it, return
 if grep --quiet virtualenvwrapper /home/pmitros/.bashrc; then
   echo "virtualenvwrapper already in bashrc"
