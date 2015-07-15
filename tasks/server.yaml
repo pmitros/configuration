@@ -5,3 +5,7 @@
   - nginx
   - openssh-server
 
+- name: RAID
+  apt: name={{ item }}
+  with_items:
+  - mdadm

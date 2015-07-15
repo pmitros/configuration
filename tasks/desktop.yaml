@@ -10,6 +10,7 @@
   - xmobar
   - xmonad
   - kdenlive
+  - wine
 
 - name: Desktop network utils
   apt: name={{ item }} 
@@ -30,6 +31,7 @@
   - texlive-latex-recommended
   - texlive-publishers
   - texlive-xetex
+  - pdftk
 
 - name: edX requirements
   apt: name={{ item }} 
