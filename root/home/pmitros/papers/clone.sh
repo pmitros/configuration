@@ -1,0 +1,14 @@
+git clone git@bitbucket.org:pmitros/2014platform.git
+git clone git@bitbucket.org:pmitros/2015_learnersourcing_journal.git
+git clone git@bitbucket.org:pmitros/2015_maxflat.git
+git clone git@bitbucket.org:pmitros/2015_nsf_big_data_assessment.git
+git clone git@bitbucket.org:pmitros/2015coin.git
+git clone git@bitbucket.org:pmitros/2015_crowd_assessment.git
+git clone git@bitbucket.org:pmitros/6002x_community.git
+git clone git@bitbucket.org:pmitros/ieee_6002x.git
+git clone git@bitbucket.org:pmitros/edm-industry.git
+git clone git@bitbucket.org:pmitros/2013crowd.git
+git clone git@bitbucket.org:pmitros/2014_learning_with_moocs.git
+git clone git@bitbucket.org:pmitros/2013insights.git
+git clone git@bitbucket.org:pmitros/6002x_journal.git
+git clone git@bitbucket.org:pmitros/ieee.git
