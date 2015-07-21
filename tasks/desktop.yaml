@@ -10,6 +10,9 @@
   - xmobar
   - xmonad
   - kdenlive
+  - youtube-dl
+  - wine
+  - mysql-workbench
 
 - name: Desktop network utils
   apt: name={{ item }} 
