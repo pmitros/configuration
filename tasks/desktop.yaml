@@ -22,6 +22,7 @@
   - nmap
   - openconnect
   - ufw
+  - vpnc
 
 - name: LaTeX
   apt: name={{ item }} 
