@@ -16,6 +16,7 @@
   - npm
   - whois
   - screen
+  - exiv2
 
 - name: Python
   apt: name={{ item }} 
