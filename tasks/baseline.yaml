@@ -18,6 +18,11 @@
   - screen
   - exiv2
 
+- name: Additional utils
+  apt: name={{ item }} 
+  with_items:
+  - mongodb-clients
+
 - name: Python
   apt: name={{ item }} 
   with_items:
@@ -54,3 +59,4 @@
   when: ansible_distribution_version == '15.04'
 - apt: name=python-mysql.connector
   when: ansible_distribution_version == '14.04'
+
