@@ -12,6 +12,7 @@
   - wine
   - xmobar
   - xmonad
+  - xournal
   - youtube-dl
 
 - name: Desktop network utils

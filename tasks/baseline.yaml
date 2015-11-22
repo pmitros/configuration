@@ -46,6 +46,7 @@
   - python-setuptools
   - python-sklearn
   - virtualenvwrapper
+  - libjpeg-dev
 
 - pip: name=fs
 - pip: name=node
