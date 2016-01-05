@@ -12,8 +12,9 @@
   - wine
   - xmobar
   - xmonad
-  - youtube-dl
   - xournal
+  - xcircuit
+  - youtube-dl
 
 - name: Desktop network utils
   apt: name={{ item }} 
@@ -42,6 +43,13 @@
   with_items:
   - nfs-common
   - nfs-kernel-server
+
+- name: fonts
+  apt: name={{ item }}
+  with_items:
+  - xfonts-base
+  - xfonts-100dpi
+  - xfonts-75dpi
 
 # - include: google-drive-ocaml.yaml
 - command: git config --global user.email "piotr@mitros.org"

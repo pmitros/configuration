@@ -1,7 +1,8 @@
 (modify-frame-parameters nil '((wait-for-wm . nil)))
 (menu-bar-mode -1)
 (tool-bar-mode -1)
-(set-default-font "-adobe-courier-medium-r-normal--10-100-75-75-m-60-iso8859-1")
+(set-default-font "-misc-fixed-medium-r-semicondensed--12-90-100-100-c-60-iso8859-1")
+; (set-default-font "-adobe-courier-medium-r-normal--10-100-75-75-m-60-*-1")
 ; (set-default-font "-adobe-courier-medium-r-normal--12-120-75-75-m-70-iso8859-1")
 
 (defun word-count nil "Count words in buffer" (interactive)

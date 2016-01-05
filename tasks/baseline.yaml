@@ -22,6 +22,9 @@
   apt: name={{ item }} 
   with_items:
   - mongodb-clients
+  - s3cmd
+  - awscli
+  - ppa-purge
 
 - name: Python
   apt: name={{ item }} 
@@ -46,6 +49,7 @@
   - python-setuptools
   - python-sklearn
   - virtualenvwrapper
+  - libjpeg-dev
 
 - pip: name=fs
 - pip: name=node
