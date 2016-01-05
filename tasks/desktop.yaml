@@ -13,6 +13,7 @@
   - xmobar
   - xmonad
   - youtube-dl
+  - xournal
 
 - name: Desktop network utils
   apt: name={{ item }} 
