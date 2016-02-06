@@ -25,6 +25,7 @@
   - s3cmd
   - awscli
   - ppa-purge
+  - sshfs
 
 - name: Python
   apt: name={{ item }} 
