@@ -4,6 +4,6 @@
   - cpufrequtils
   - lm-sensors
   - powertop
-  - unity-2d-panel
+#  - unity-2d-panel
 # - include: google-drive-ocaml.yaml
 # --- apt: name=pm-utils

@@ -17,6 +17,7 @@
   - whois
   - screen
   - exiv2
+  - wipe
 
 - name: Additional utils
   apt: name={{ item }} 
@@ -51,6 +52,7 @@
   - python-sklearn
   - virtualenvwrapper
   - libjpeg-dev
+  - python-opencv
 
 - pip: name=fs
 - pip: name=node
