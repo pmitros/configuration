@@ -18,6 +18,7 @@
   - screen
   - exiv2
   - wipe
+  - build-essential
 
 - name: Additional utils
   apt: name={{ item }} 
