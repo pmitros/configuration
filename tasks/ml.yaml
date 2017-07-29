@@ -34,3 +34,20 @@
   - python-numpy
   - python2.7-dev
   - python3.5-dev
+  # And for caffe http://caffe.berkeleyvision.org/install_apt.html
+  - libprotobuf-dev
+  - libleveldb-dev
+  - libsnappy-dev
+  - libopencv-dev
+  - libhdf5-serial-dev
+  - protobuf-compiler
+  - libboost-all-dev
+  - libopenblas-dev
+  - libgflags-dev
+  - libhdf5-dev
+  - liblmdb-dev
+  # dlib
+  - libx11-dev
+
+- apt: name=libgoogle-glog-dev
+  when: ansible_distribution_version == '16.10'

@@ -10,7 +10,6 @@
   - mplayer
   - mysql-workbench
   - shutter
-  - wine-stable
   - xmobar
   - xmonad
   - xournal
@@ -75,3 +74,9 @@
 
 - copy: src=scripts/virtualenvwrapper.sh dest=/tmp
 - command: sh /tmp/virtualenvwrapper.sh
+
+- apt: name=wine-stable
+  when: ansible_distribution_version == '16.10'
+
+- apt: name=wine
+  when: ansible_distribution_version == '16.04'
