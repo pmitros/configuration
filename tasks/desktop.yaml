@@ -9,12 +9,13 @@
   - mplayer
   - mysql-workbench
   - shutter
-  - wine
+  - wine-stable
   - xmobar
   - xmonad
   - xournal
   - xcircuit
   - youtube-dl
+  - tesseract-ocr
 
 - name: Desktop network utils
   apt: name={{ item }} 
@@ -50,6 +51,19 @@
   - xfonts-base
   - xfonts-100dpi
   - xfonts-75dpi
+
+- name: androidstudioreqs
+  apt: name={{ item }}
+  with_items:
+  - libc6:i386
+  - libncurses5:i386
+  - libstdc++6:i386
+  - lib32z1
+  - libbz2-1.0:i386
+  - qemu-kvm
+  - libvirt-bin
+  - ubuntu-vm-builder
+  - bridge-utils
 
 # - include: google-drive-ocaml.yaml
 - command: git config --global user.email "piotr@mitros.org"

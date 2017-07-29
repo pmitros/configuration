@@ -1,0 +1,36 @@
+- name: Machine vision and machine learning
+  apt: name={{ item }} 
+  with_items:
+  - python3-pgmagick
+  - libgraphicsmagick++-q16-12
+  - libgraphicsmagick-q16-3
+  - libboost-python-dev
+  - libmagick++-dev
+  - libgraphicsmagick++1-dev
+  - libmagick++-6.q16-dev
+  - libmagick++-6-headers
+  # This set is for building OpenCV
+  - build-essential
+  - cmake
+  - pkg-config
+  - gfortran
+  - libatlas-base-dev
+  - libavcodec-dev
+  - libavformat-dev
+  - libdc1394-22-dev
+  - libgtk-3-dev
+  - libjasper-dev
+  - libjpeg-dev
+  - libjpeg8-dev
+  - libpng-dev
+  - libswscale-dev
+  - libtbb-dev
+  - libtbb2
+  - libtiff-dev
+  - libtiff5-dev
+  - libv4l-dev
+  - libx264-dev
+  - libxvidcore-dev
+  - python-numpy
+  - python2.7-dev
+  - python3.5-dev
