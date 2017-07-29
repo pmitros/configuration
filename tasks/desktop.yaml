@@ -2,6 +2,7 @@
   apt: name={{ item }} 
   with_items:
   - gimp
+  - xcftools
   - gthumb
   - inkscape
   - kdenlive
